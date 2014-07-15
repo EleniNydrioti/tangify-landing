@@ -1,8 +1,14 @@
+	body{
+		font-family: 'Open Sans', sans-serif;
+	}
+	h1,h2,h3,h4,h5{
+		font-weight: bold;
+	}
+
 .power{
 	text-align: center;
 	color: white;
-	font-size: 5em;
-	font-family: 'Open Sans', sans-serif;
+	font-size: 5rem;
 }
 
 .gradient{
@@ -16,17 +22,32 @@ background: linear-gradient(to bottom, #1e5799 0%,#2989d8 50%,#207cca 51%,#7db9e
 filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1e5799', endColorstr='#7db9e8',GradientType=0 ); /* IE6-9 */
 }
 
+.margin50{
+	padding-top: 50px;
+}
+
+
+
+.white50{
+	padding-top: 60px; padding-bottom: 50px;	
+}
+
+
 .video{
 	padding: 20px;
+}
+
+.now:hover{
+	color: red;
 }
 
 .greybg{
 	padding-top: 60px;
 	background-color: #F0F0F0;
 	padding-bottom: 50px;
-	font-family: 'Open Sans', sans-serif;
+}
 
-.second>h2{
+h2{
 	font-weight: bolder;
 }
 
@@ -34,15 +55,6 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1e5799', end
 	padding-left: 70px;
 }
 
-.keimeno{ 
-	margin-top: 120px;
-}
 
 
-
-
-.white{
-	padding-top: 60px;
-	
-}
 
